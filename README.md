@@ -9,7 +9,7 @@ docker pull mongo
 ```
 3. Run MongoDB Docker container:
 ```console
-docker run -d -p 27019:27017 --name my-mongodb-container -e MONGO_INITDB_ROOT_USERNAME=myuser -e MONGO_INITDB_ROOT_PASSWORD=mypassword mongo
+docker run -d -p 27017:27017 --name my-mongodb-container -e MONGO_INITDB_ROOT_USERNAME=myuser -e MONGO_INITDB_ROOT_PASSWORD=mypassword mongo
 ```
 4. Set _index.js_:
 ```js

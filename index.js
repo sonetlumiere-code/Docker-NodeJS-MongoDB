@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const express = require('express')
 const PORT = 3000;
 
-const thisIsContainer = false
+const thisIsContainer = true
 let connectTo = ''
 if (thisIsContainer) {
   connectTo = 'my-mongodb-container'
